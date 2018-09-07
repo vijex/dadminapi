@@ -1,16 +1,21 @@
 {
-  "name": "express-html",
+  "name": "dadminapi",
   "version": "1.0.0",
-  "description": "test server for html pages",
-  "main": "index.html",
+  "description": "file upload",
+  "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nihal",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "touch": "^3.1.0"
-	
-  }
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.9",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
 }
